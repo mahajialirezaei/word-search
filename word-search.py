@@ -1,7 +1,7 @@
 import collections
 from os import remove
 
-found_words = []
+found_words = set()
 def check(i, j, m, n, visited):
     return i < m and j < n and i >= 0 and j >= 0 and tuple([i, j]) not in visited
 
@@ -20,7 +20,7 @@ def search(board, words, m, n):
 
 def wordSearch(board, i, j, words, m, n, word, visited):
     if word in words:
-        found_words.append(word)
+        found_words.add(word)
 
     if check(i + 1, j, m, n, visited):
         word = word + board[i+1][j]
