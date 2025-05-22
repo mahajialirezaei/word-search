@@ -1,6 +1,3 @@
-### 📄 `README.md`
-
-````markdown
 # Word Search in Character Grid
 
 This project implements a classic **Word Search** algorithm in Python. The goal is to identify which words from a given list can be formed by navigating through adjacent characters in a 2D board.
@@ -74,13 +71,6 @@ words = ['oath', 'pea', 'eat', 'rain']
 * Uses Python sets for efficient lookups.
 * Clean, recursive backtracking logic.
 
----
-
-## 🚀 Future Improvements
-
-* Support for Trie-based optimization (prefix tree) to handle large word dictionaries more efficiently.
-* Add unit tests for various edge cases.
-* GUI for interactive board input.
 
 
 
